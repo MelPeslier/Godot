@@ -4,5 +4,5 @@ feature_profiles/
 script_templates/
 shader_cache/
 text_editor_themes/
-projects.cfg
-recent_dirs
+.projects.cfg
+.recent_dirs
