@@ -1,4 +1,54 @@
-[gd_resource type="EditorSettings" format=3]
+[gd_resource type="EditorSettings" load_steps=11 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_s2fyv"]
+device = -1
+alt_pressed = true
+keycode = 87
+
+[sub_resource type="InputEventKey" id="InputEventKey_4dyms"]
+device = -1
+alt_pressed = true
+keycode = 88
+
+[sub_resource type="InputEventKey" id="InputEventKey_4ntdh"]
+device = -1
+alt_pressed = true
+keycode = 67
+
+[sub_resource type="InputEventKey" id="InputEventKey_jncaq"]
+device = -1
+alt_pressed = true
+keycode = 66
+
+[sub_resource type="InputEventKey" id="InputEventKey_h4cm6"]
+device = -1
+keycode = 65
+unicode = 97
+
+[sub_resource type="InputEventKey" id="InputEventKey_xk835"]
+device = -1
+keycode = 90
+unicode = 122
+
+[sub_resource type="InputEventKey" id="InputEventKey_ue30l"]
+device = -1
+keycode = 82
+unicode = 114
+
+[sub_resource type="InputEventKey" id="InputEventKey_45jon"]
+device = -1
+keycode = 84
+unicode = 116
+
+[sub_resource type="InputEventKey" id="InputEventKey_ia1ff"]
+device = -1
+alt_pressed = true
+keycode = 86
+
+[sub_resource type="InputEventKey" id="InputEventKey_6cq56"]
+device = -1
+alt_pressed = true
+keycode = 78
 
 [resource]
 interface/editor/editor_language = "en"
@@ -145,6 +195,37 @@ editors/3d_gizmos/gizmo_colors/joint_body_b = Color(0.6, 0.9, 1, 1)
 editors/3d_gizmos/gizmo_colors/fog_volume = Color(0.5, 0.7, 1, 1)
 text_editor/help/sort_functions_alphabetically = true
 interface/theme/code_font_size = 16
+shortcuts = [{
+"name": "bottom_panels/toggle_filesystem_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_s2fyv")]
+}, {
+"name": "bottom_panels/toggle_output_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_4dyms")]
+}, {
+"name": "bottom_panels/toggle_debugger_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_4ntdh")]
+}, {
+"name": "bottom_panels/toggle_animation_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_jncaq")]
+}, {
+"name": "canvas_item_editor/select_mode",
+"shortcuts": [SubResource("InputEventKey_h4cm6")]
+}, {
+"name": "canvas_item_editor/move_mode",
+"shortcuts": [SubResource("InputEventKey_xk835")]
+}, {
+"name": "canvas_item_editor/scale_mode",
+"shortcuts": [SubResource("InputEventKey_ue30l")]
+}, {
+"name": "canvas_item_editor/ruler_mode",
+"shortcuts": [SubResource("InputEventKey_45jon")]
+}, {
+"name": "bottom_panels/toggle_audio_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_ia1ff")]
+}, {
+"name": "bottom_panels/toggle_shader_editor_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_6cq56")]
+}]
 metadata/script_setup_templates_dictionary = {
 "Node": "0NodeDefault"
 }
