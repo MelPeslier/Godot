@@ -60,6 +60,7 @@ interface/theme/accent_color = Color(0.337255, 0.619608, 1, 1)
 interface/theme/contrast = 0.2
 interface/theme/icon_saturation = 2.0
 interface/theme/custom_theme = "E:/Godot/Editor/Themes/editor_theme_high_ppi.tres"
+text_editor/theme/color_theme = "Custom"
 text_editor/theme/highlighting/symbol_color = Color(0.67, 0.79, 1, 1)
 text_editor/theme/highlighting/keyword_color = Color(1, 0.44, 0.52, 1)
 text_editor/theme/highlighting/control_flow_keyword_color = Color(1, 0.55, 0.8, 1)
@@ -90,14 +91,16 @@ text_editor/theme/highlighting/mark_color = Color(1, 0.47, 0.42, 0.3)
 text_editor/theme/highlighting/breakpoint_color = Color(1, 0.47, 0.42, 1)
 text_editor/theme/highlighting/code_folding_color = Color(1, 1, 1, 0.27)
 text_editor/theme/highlighting/search_result_color = Color(1, 1, 1, 0.07)
+editors/tiles_editor/display_grid = false
 network/connection/network_mode = 1
 project_manager/directory_naming_convention = 2
+project_manager/default_renderer = "mobile"
 asset_library/available_urls = {
 "godotengine.org (Official)": "https://godotengine.org/asset-library/api"
 }
 asset_library/use_threads = true
-export/android/java_sdk_path = ""
-export/android/android_sdk_path = ""
+export/android/java_sdk_path = "C:/Program Files/Java/jdk-23"
+export/android/android_sdk_path = "C:/Program Files/android_sdk"
 export/android/debug_keystore = "C:/Users/mel/AppData/Roaming/Godot/keystores/debug.keystore"
 export/android/debug_keystore_user = "androiddebugkey"
 export/android/debug_keystore_pass = "android"
@@ -174,7 +177,7 @@ text_editor/theme/highlighting/comment_markers/warning_color = Color(0.72, 0.61,
 text_editor/theme/highlighting/comment_markers/notice_color = Color(0.56, 0.67, 0.51, 1)
 text_editor/theme/highlighting/comment_markers/critical_list = "ALERT,ATTENTION,CAUTION,CRITICAL,DANGER,SECURITY"
 text_editor/theme/highlighting/comment_markers/warning_list = "BUG,DEPRECATED,FIXME,HACK,TASK,TBD,TODO,WARNING"
-text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING"
+text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING,MEL"
 editors/3d_gizmos/gizmo_colors/camera = Color(0.8, 0.4, 0.8, 1)
 editors/3d_gizmos/gizmo_colors/stream_player_3d = Color(0.4, 0.8, 1, 1)
 editors/3d_gizmos/gizmo_colors/occluder = Color(0.8, 0.5, 1, 1)
@@ -227,3 +230,4 @@ metadata/script_setup_templates_dictionary = {
 "Node": "0NodeDefault"
 }
 metadata/script_setup_use_script_templates = false
+metadata/export_template_download_directory = "E:/Godot/Editor/ExportTemplates"
