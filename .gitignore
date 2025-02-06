@@ -1,6 +1,7 @@
 app_userdata/
-export_tremplates/
+export_templates/
 feature_profiles/
+globalized/
 script_templates/
 shader_cache/
 text_editor_themes/
