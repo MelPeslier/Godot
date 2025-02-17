@@ -66,6 +66,7 @@ interface/theme/accent_color = Color(0.337255, 0.619608, 1, 1)
 interface/theme/contrast = 0.2
 interface/theme/icon_saturation = 2.0
 interface/theme/custom_theme = "E:/Godot/Editor/Themes/editor_theme_high_ppi.tres"
+filesystem/file_dialog/show_hidden_files = true
 text_editor/theme/color_theme = "Custom"
 editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
 editors/3d/navigation/emulate_numpad = false
@@ -96,7 +97,7 @@ _export_template_download_directory = "C:/Users/mel/AppData/Local/Godot"
 _script_setup_templates_dictionary = {}
 _script_setup_use_script_templates = false
 global_plugins/assets = {}
-global_plugins/paths = ["E:/Godot/Addons/CustomPolygonTool/addons/custom_polygon_tool/plugin.cfg"]
+global_plugins/paths = ["E:/Godot/Addons/helpers/addons/helpers/plugin.cfg", "E:/Godot/Addons/helpers/addons/components/plugin.cfg"]
 text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING,VFX"
 shortcuts = [{
 "name": "bottom_panels/toggle_filesystem_bottom_panel",
