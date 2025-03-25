@@ -57,7 +57,6 @@ keycode = 4194326
 interface/editor/editor_language = "en"
 interface/editor/display_scale = 3
 interface/editor/editor_screen = -2
-network/connection/engine_version_update_mode = 2
 interface/editor/main_font = "E:/Godot/Editor/Fonts/Inter-4.0/InterVariable.ttf"
 docks/scene_tree/ask_before_revoking_unique_name = false
 interface/theme/preset = "Custom"
@@ -97,7 +96,7 @@ _export_template_download_directory = "C:/Users/mel/AppData/Local/Godot"
 _script_setup_templates_dictionary = {}
 _script_setup_use_script_templates = false
 global_plugins/assets = {}
-global_plugins/paths = ["E:/Godot/Addons/helpers/addons/helpers/plugin.cfg", "E:/Godot/Addons/helpers/addons/components/plugin.cfg"]
+global_plugins/paths = ["E:/Godot/Addons/helpers/addons/bymel/plugin.cfg"]
 text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING,VFX"
 shortcuts = [{
 "name": "bottom_panels/toggle_filesystem_bottom_panel",
